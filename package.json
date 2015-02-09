@@ -1,0 +1,19 @@
+{
+  "name": "oscarparamo",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/oscarparamo/oscarparamo.git"
+  },
+  "description": "My personal website and programming playground.",
+  "main": "./index.js",
+  "author": "Oscar Paramo",
+  "dependencies": {
+    "boom": "2.6.1",
+    "handlebars": "2.0.0",
+    "hapi": "8.1.0",
+    "joi": "5.1.0",
+    "mongodb": "1.4.29"
+  },
+  "devDependencies": {}
+}

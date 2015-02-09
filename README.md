@@ -1,2 +1,2 @@
-# oscarparamo
-My personal website and playground.
+# oscarparamo.com
+My personal website and programming playground.
