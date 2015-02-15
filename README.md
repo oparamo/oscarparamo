@@ -20,7 +20,7 @@
 - [x] Initialize git repo locally and on GitHub
 - [x] Add basic project structure
 - [x] Set up git repo and git remote on rpi
-- [ ] Automatially start/stop node server when rpi boots/shutdown
+- [x] Automatially start/stop node server when rpi boots/shutdown
 - [ ] Configure git hook on rpi to enable "push to deploy"
 - [ ] Point domain to the rpi
     - [ ] Configure dyndns with my domain
