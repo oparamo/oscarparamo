@@ -21,7 +21,7 @@
 - [x] Add basic project structure
 - [x] Set up git repo and git remote on rpi
 - [x] Automatially start/stop node server when rpi boots/shutdown
-- [ ] Configure git hook on rpi to enable "push to deploy"
+- [x] Configure git hook on rpi to enable "push to deploy"
 - [ ] Point domain to the rpi
     - [ ] Configure dyndns with my domain
     - [ ] Test ssh from internet

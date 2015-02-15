@@ -1,5 +1,5 @@
 module.exports = {
     get: function(request, reply) {
-            reply('hello');
+            reply('hello world!');
     }
 };
