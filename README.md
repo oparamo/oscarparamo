@@ -23,15 +23,14 @@
 - [x] Automatially start/stop node server when rpi boots/shutdown
 - [x] Configure git hook on rpi to enable "push to deploy"
 - [ ] Point domain to the rpi
-    - [ ] Configure dyndns with my domain
-    - [ ] Test ssh from internet
+    - [x] Configure dyndns with my domain
+    - [x] Test ssh from internet
     - [ ] Test push to deploy
 - [ ] Set up workflow
     - [ ] Use grunt to lint project before commits
     - [ ] Use mocha and write basic tests
     - [ ] Uglify and minify for production
-- [ ] Refactor previous website frontend to nodejs
-- [ ] Implement emberjs
+- [ ] Refactor previous website to nodejs
 - [ ] Finish personal website
     - [ ] Make website look good
     - [ ] Add about me
@@ -40,6 +39,7 @@
     - [ ] Add Google analytics and statsd
 - [ ] Publish a tutorial for rpi setup
 - [ ] Create a programming sandbox
+    - [ ] Implement emberjs
     - [ ] Use MVC model
     - [ ] Become more comforable with mongo and sql databases
     - [ ] Play with models more
