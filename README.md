@@ -28,7 +28,6 @@
     - [x] Test push to deploy
 - [ ] Set up workflow
     - [ ] Use grunt to lint project before commits
-    - [ ] Use mocha and write basic tests
     - [ ] Uglify and minify for production
 - [ ] Refactor previous website to nodejs
 - [ ] Finish personal website
@@ -39,11 +38,12 @@
     - [ ] Add Google analytics and statsd
 - [ ] Publish a tutorial for rpi setup
 - [ ] Create a programming sandbox
+    - [ ] Use mocha and write basic tests
     - [ ] Implement emberjs
     - [ ] Use MVC model
-    - [ ] Become more comforable with mongo and sql databases
-    - [ ] Play with models more
     - [ ] Create a REST API and play with it
+    - [ ] Play with models more
+    - [ ] Become more comforable with mongo and sql databases
     - [ ] Implement https
 - [ ] Upgrade to Raspberry Pi 2
 
