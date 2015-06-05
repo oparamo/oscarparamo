@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "ember build",
-    "lint": "jshint  --exclude-path .gitignore",
+    "lint": "jshint --exclude-path .gitignore . && jscs .",
     "precommit": "npm run lint",
     "start": "ember server",
     "test": "ember test"
