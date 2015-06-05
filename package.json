@@ -7,8 +7,10 @@
     "test": "tests"
   },
   "scripts": {
-    "start": "ember server",
     "build": "ember build",
+    "lint": "jshint  --exclude-path .gitignore",
+    "precommit": "npm run lint",
+    "start": "ember server",
     "test": "ember test"
   },
   "repository": {
@@ -35,6 +37,9 @@
     "ember-cli-uglify": "1.0.1",
     "ember-data": "1.0.0-beta.18",
     "ember-disable-proxy-controllers": "1.0.0",
-    "ember-export-application-global": "1.0.2"
+    "ember-export-application-global": "1.0.2",
+    "husky": "0.8.1",
+    "jscs": "1.13.1",
+    "jshint": "2.8.0"
   }
 }
