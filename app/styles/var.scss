@@ -1,8 +1,20 @@
 // fonts
-$font-stack: Helvetica, sans-serif;
+@font-face {
+  font-family: robotolight;
+  src: url('/assets/fonts/roboto/Roboto-Light.woff');
+}
+$font-stack: roboto, Arial, sans-serif;
 
 // colors
-$primary-color: #333;
+$copper: #df9b78;
+$cabaret: #c2506a;
+$lipstick: #9b2b4d;
+$byzantium: #6e296b;
+$gigas: #5e4489;
+$windsor: #4a2786;
+
+$white: #fff;
+$black: #000;
 
 // mixins
 @mixin border-radius($radius) {

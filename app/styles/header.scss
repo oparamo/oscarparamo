@@ -1,0 +1,25 @@
+.header {
+  width: 100%;
+}
+
+nav {
+  background-color: $gigas;
+  font-size: 1.2em;
+  height: 50px;
+  line-height: 50px;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+
+  a {
+    color: $white;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0 40px;
+    text-decoration: none;
+
+    &:hover {
+      background-color: $windsor;
+    }
+  }
+}

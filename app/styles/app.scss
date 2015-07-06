@@ -1,7 +1,12 @@
 @import 'var';
+@import 'header';
 
-html {
-  background: #fff;
+html * {
+  font-family: $font-stack;
+}
+
+html,
+body {
   margin: 0;
   padding: 0;
 }
