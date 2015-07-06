@@ -29,12 +29,17 @@ nav {
 }
 
 .triangilify {
-  height: 300px;
+  background-image: url('images/trianglify.svg');
+  height: 375px;
   width: 100%;
   z-index: 0;
+}
 
-  svg {
-    height: 100%;
-    width: 100%;
+.oscar {
+  height: 100%;
+  width: 100%;
+
+  * {
+    display: inline-block;
   }
 }
