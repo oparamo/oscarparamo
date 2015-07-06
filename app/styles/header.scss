@@ -1,4 +1,7 @@
 .header {
+  background-color: $cabaret;
+  position: fixed;
+  top: 0;
   width: 100%;
 }
 
@@ -8,10 +11,9 @@ nav {
   height: 50px;
   line-height: 50px;
   margin: auto;
-  position: fixed;
   text-align: center;
-  top: 0;
   width: 100%;
+  z-index: 2;
 
   a {
     color: $white;
@@ -23,5 +25,16 @@ nav {
     &:hover {
       background-color: $windsor;
     }
+  }
+}
+
+.triangilify {
+  height: 300px;
+  width: 100%;
+  z-index: 0;
+
+  svg {
+    height: 100%;
+    width: 100%;
   }
 }
