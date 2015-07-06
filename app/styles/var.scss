@@ -1,5 +1,13 @@
 // fonts
-$font-stack:    Helvetica, sans-serif;
+$font-stack: Helvetica, sans-serif;
 
 // colors
 $primary-color: #333;
+
+// mixins
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
