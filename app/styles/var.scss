@@ -22,3 +22,8 @@ $windsor: #4a2786;
   -ms-border-radius: $radius;
   border-radius: $radius;
 }
+@mixin box-shadow($v, $b, $s, $c) {
+  -webkit-box-shadow: $v $b $s $c;
+  -moz-box-shadow: $v $b $s $c;
+  box-shadow: $v $b $s $c;
+}
