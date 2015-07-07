@@ -1,5 +1,7 @@
 @import 'var';
+@import 'content-block';
 @import 'header';
+@import 'index';
 
 html * {
   font-family: $font-stack;
@@ -12,4 +14,5 @@ body {
 }
 
 .main {
+  width: 100%;
 }

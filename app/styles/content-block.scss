@@ -1,0 +1,13 @@
+.content-block {
+  padding: 10px;
+
+  > h2 {
+    font-family: Roboto;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  > div {
+    text-align: center;
+  }
+}
