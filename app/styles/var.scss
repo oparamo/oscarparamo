@@ -1,0 +1,29 @@
+// fonts
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url('/assets/fonts/roboto/Roboto-Light.woff');
+}
+$font-stack: 'Roboto-Light', Arial, sans-serif;
+
+// color palette
+$black: #000;
+$white: #fff;
+$copper: #df9b78;
+$cabaret: #c2506a;
+$lipstick: #9b2b4d;
+$byzantium: #6e296b;
+$gigas: #5e4489;
+$windsor: #4a2786;
+
+// mixins
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+@mixin box-shadow($v, $b, $s, $c) {
+  -webkit-box-shadow: $v $b $s $c;
+  -moz-box-shadow: $v $b $s $c;
+  box-shadow: $v $b $s $c;
+}

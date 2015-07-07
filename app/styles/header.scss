@@ -1,0 +1,63 @@
+.header {
+  background-color: $cabaret;
+  top: 0;
+  width: 100%;
+}
+
+nav {
+  background-color: $windsor;
+  font-size: 1.25em;
+  height: 50px;
+  line-height: 50px;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+
+  a {
+    color: $white;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0 40px;
+    text-decoration: none;
+
+    &:hover {
+      background-color: $lipstick;
+    }
+  }
+}
+
+.triangilify {
+  background-image: url('images/trianglify.svg');
+  height: 375px;
+  width: 100%;
+}
+
+.profile {
+  color: $white;
+  height: 100%;
+  text-align: center;
+  text-shadow: 0 1px 5px $black;
+  width: 100%;
+
+  > * {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .oscar {
+    @include box-shadow(0, 1px, 5px, $black);
+    @include border-radius(50%);
+
+    background-image: url('images/oscar.jpg');
+    background-size: 100%;
+    border: 3px solid $white;
+    height: 250px;
+    margin: 12.5px 0;
+    width: 250px;
+  }
+
+  h1 {
+    display: inline-block;
+    margin: 0;
+  }
+}
