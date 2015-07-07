@@ -1,19 +1,17 @@
 .header {
   background-color: $cabaret;
-  position: fixed;
   top: 0;
   width: 100%;
 }
 
 nav {
-  background-color: $gigas;
+  background-color: $windsor;
   font-size: 1.25em;
   height: 50px;
   line-height: 50px;
   margin: auto;
   text-align: center;
   width: 100%;
-  z-index: 2;
 
   a {
     color: $white;
@@ -23,7 +21,7 @@ nav {
     text-decoration: none;
 
     &:hover {
-      background-color: $windsor;
+      background-color: $lipstick;
     }
   }
 }
@@ -32,7 +30,6 @@ nav {
   background-image: url('images/trianglify.svg');
   height: 375px;
   width: 100%;
-  z-index: 0;
 }
 
 .oscar {

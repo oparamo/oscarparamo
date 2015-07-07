@@ -1,11 +1,11 @@
 // fonts
 @font-face {
-  font-family: Roboto;
+  font-family: 'Roboto-Light';
   src: url('/assets/fonts/roboto/Roboto-Light.woff');
 }
-$font-stack: Roboto, Arial, sans-serif;
+$font-stack: 'Roboto-Light', Arial, sans-serif;
 
-// colors
+// color palette
 $black: #000;
 $white: #fff;
 $copper: #df9b78;
