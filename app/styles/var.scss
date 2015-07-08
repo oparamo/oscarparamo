@@ -1,9 +1,20 @@
 // fonts
 @font-face {
-  font-family: 'Roboto-Light';
-  src: url('/assets/fonts/roboto/Roboto-Light.woff');
+  font-family: 'Avenir-Medium';
+  src: url('/assets/fonts/Avenir-Medium.woff');
 }
-$font-stack: 'Roboto-Light', Arial, sans-serif;
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('/assets/fonts/HelveticaNeue.woff');
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('/assets/fonts/Helvetica.woff');
+}
+
+$font-stack: 'Avenir-Medium', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 
 // color palette
 $black: #000;
@@ -22,6 +33,7 @@ $windsor: #4a2786;
   -ms-border-radius: $radius;
   border-radius: $radius;
 }
+
 @mixin box-shadow($v, $b, $s, $c) {
   -webkit-box-shadow: $v $b $s $c;
   -moz-box-shadow: $v $b $s $c;
