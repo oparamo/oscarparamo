@@ -4,7 +4,7 @@
 @import 'index';
 
 html * {
-  font-family: $font-stack;
+  font-family: $font-stack !important;
 }
 
 html,
