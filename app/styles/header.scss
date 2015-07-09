@@ -63,9 +63,11 @@ nav {
   @extend .primary-colors-1;
 
   height: 50px;
+  font-size: .875em;
   line-height: 50px;
   margin: auto;
   text-align: center;
+  text-transform: uppercase;
   width: 100%;
 
   a {
