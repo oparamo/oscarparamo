@@ -1,11 +1,11 @@
 .header {
-  background-color: $sandwisp;
+  // background-color: $sandwisp;
   top: 0;
   width: 100%;
 }
 
 nav {
-  background-color: $windsor;
+  // background-color: $windsor;
   font-size: 1.25em;
   height: 50px;
   line-height: 50px;
@@ -21,12 +21,12 @@ nav {
     text-decoration: none;
 
     &:hover {
-      background-color: $lipstick;
+      // background-color: $lipstick;
     }
   }
 
   .active {
-    background-color: $byzantium;
+    // background-color: $byzantium;
   }
 }
 
