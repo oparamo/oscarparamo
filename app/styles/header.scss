@@ -1,12 +1,67 @@
 .header {
-  // background-color: $sandwisp;
-  top: 0;
+  background-color: $accent-color-1;
   width: 100%;
 }
 
+.triangilify {
+  background-image: url('images/trianglify.svg');
+  color: $white;
+  height: 375px;
+  text-align: center;
+  text-shadow: 0 1px 5px $black;
+  width: 100%;
+
+  div {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    width: 49%;
+
+    div { height: 252px; margin: 61.5px 0; width: auto;}
+  }
+
+  .oscar {
+    @include box-shadow(0, 1px, 5px, $black);
+    @include border-radius(50%);
+
+    background-image: url('images/oscar.jpg');
+    background-size: 100%;
+    border: 1px solid $white;
+    width: 250px;
+  }
+
+  h1,
+  h2,
+  h3 {
+    display: inline-block;
+    margin-top: 63px 0;
+    vertical-align: middle;
+  }
+
+  @media screen and (max-width: 650px) {
+    div {
+      height: auto;
+      margin: auto;
+      width: 50%;
+
+      div { margin: auto; }
+    }
+
+    .oscar {
+      height: 200px;
+      margin: 27px 0;
+      width: 200px;
+    }
+
+    h1,
+    h2,
+    h3 { margin: 0; }
+  }
+}
+
 nav {
-  // background-color: $windsor;
-  font-size: 1.25em;
+  @extend .primary-colors-1;
+
   height: 50px;
   line-height: 50px;
   margin: auto;
@@ -17,51 +72,24 @@ nav {
     color: $white;
     display: inline-block;
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 0 20px;
+    position: relative;
     text-decoration: none;
 
-    &:hover {
-      // background-color: $lipstick;
-    }
+    &:active { background-color: $accent-color-2; }
+
+    &:hover { background-color: $accent-color-1; }
   }
 
   .active {
-    // background-color: $byzantium;
-  }
-}
-
-.triangilify {
-  background-image: url('images/trianglify.svg');
-  height: 375px;
-  width: 100%;
-}
-
-.profile {
-  color: $white;
-  height: 100%;
-  text-align: center;
-  text-shadow: 0 1px 5px $black;
-  width: 100%;
-
-  > * {
-    display: inline-block;
-    width: 100%;
-  }
-
-  .oscar {
-    @include box-shadow(0, 1px, 5px, $black);
-    @include border-radius(50%);
-
-    background-image: url('images/oscar.jpg');
-    background-size: 100%;
-    border: 3px solid $white;
-    height: 250px;
-    margin: 12.5px 0;
-    width: 250px;
-  }
-
-  h1 {
-    display: inline-block;
-    margin: 0;
+    span {
+      background-color: $accent-color-1;
+      bottom: 0;
+      display: block;
+      height: 3px;
+      left: 0;
+      position: absolute;
+      width: 100%;
+    }
   }
 }
