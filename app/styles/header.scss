@@ -59,16 +59,36 @@
   }
 }
 
+.logo {
+  font-size: 1.2em;
+  left: 15px;
+  line-height: 50px;
+  position: absolute;
+}
+
 nav {
   @extend .primary-colors-1;
 
-  height: 50px;
   font-size: .875em;
+  height: 50px;
   line-height: 50px;
   margin: auto;
+  position: relative;
   text-align: center;
   text-transform: uppercase;
   width: 100%;
+
+  div {
+    height: 100%;
+    position: relative;
+    width: 100%;
+
+    div {
+      position: absolute;
+      right: 15px;
+      width: auto;
+    }
+  }
 
   a {
     color: $white;

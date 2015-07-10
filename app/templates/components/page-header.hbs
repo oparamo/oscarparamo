@@ -11,6 +11,12 @@
   </div>
 </div>
 <nav>
-  {{#link-to 'index'}}Home<span></span>{{/link-to}}
-  {{#link-to 'about'}}About Me<span></span>{{/link-to}}
+  <div>
+    <!-- <a {{action 'scrollUp'}} href="#" class="logo">OP</a> -->
+    <span class="logo">OP</span>
+    <div>
+      {{#link-to 'index'}}Home<span></span>{{/link-to}}
+      {{#link-to 'about'}}About Me<span></span>{{/link-to}}
+    </div>
+  </div>
 </nav>
