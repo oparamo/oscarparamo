@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "ember build",
-    "lint": "jshint . && jscs .",
+    "lint": "jshint --exclude-path .gitignore . && jscs .",
     "precommit": "npm run lint",
     "start": "ember server",
     "test": "ember test"
@@ -25,7 +25,6 @@
   "dependencies": {},
   "devDependencies": {
     "broccoli-asset-rev": "2.0.5",
-    "canvas": "1.2.3",
     "ember-cli": "0.2.7",
     "ember-cli-app-version": "0.3.3",
     "ember-cli-babel": "5.0.0",
@@ -42,7 +41,6 @@
     "ember-export-application-global": "1.0.2",
     "husky": "0.8.1",
     "jscs": "1.13.1",
-    "jshint": "2.8.0",
-    "trianglify": "0.3.0"
+    "jshint": "2.8.0"
   }
 }

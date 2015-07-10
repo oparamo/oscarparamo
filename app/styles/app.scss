@@ -1,15 +1,84 @@
 @import 'var';
+@import 'mix';
 @import 'header';
+@import 'content-block';
+@import 'index';
 
-html * {
-  font-family: $font-stack;
-}
+html * { font-family: $font-stack !important; }
 
 html,
 body {
   margin: 0;
   padding: 0;
+  background-color: $light-grey;
+}
+
+.black-text {
+  // fallback color in case rgba isn't supported
+  color: $black;
+
+  .primary-text { color: rgba(0, 0, 0, .87); }
+
+  .secondary-text,
+  .icon-text { color: rgba(0, 0, 0, .54); }
+
+  .hint-text,
+  .diabled-text { color: rgba(0, 0, 0, .26); }
+
+  .divider-text { color: rgba(0, 0, 0, .12); }
+}
+
+.white-text {
+  // fallback color in case rgba isn't supported
+  color: $white;
+
+  .primary-text { color: rgba(255, 255, 255, 1); }
+
+  .secondary-text,
+  .icon-text { color: rgba(255, 255, 255, .7); }
+
+  .hint-text,
+  .diabled-text { color: rgba(255, 255, 255, .3); }
+
+  .divider-text { color: rgba(255, 255, 255, .12); }
+}
+
+.primary-colors-1 {
+  @extend .white-text;
+
+  background-color: $primary-color-1;
+
+  .accent { color: $accent-color-1; }
+}
+
+.primary-colors-2 {
+  @extend .white-text;
+
+  background-color: $primary-color-2;
+
+  .accent { color: $accent-color-2; }
+}
+
+.primary-colors-3 {
+  @extend .black-text;
+
+  background-color: $primary-color-3;
+
+  .accent { color: $accent-color-1; }
+}
+
+.accent-colors-1 {
+  @extend .white-text;
+
+  background-color: $accent-color-1;
+}
+
+.accent-colors-2 {
+  @extend .white-text;
+
+  background-color: $accent-color-2;
 }
 
 .main {
+  width: 100%;
 }

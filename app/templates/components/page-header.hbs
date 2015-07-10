@@ -1,13 +1,22 @@
-<nav>
-  {{#link-to 'index'}}Home{{/link-to}}
-  {{#link-to 'about'}}About Me{{/link-to}}
-</nav>
 <div class="triangilify">
-  <!-- look in public dir for triangilify background generating script -->
-  <div class="profile">
+  <div>
     <div class="oscar"></div>
+  </div>
+  <div>
     <div>
-      <h1>Oscar Páramo<br>Computer Scientist</h1>
+      <h1>Oscar Páramo</h1><br>
+      <h2>Computer Scientist</h2><br>
+      <h3>Dallas, Texas</h3>
     </div>
   </div>
 </div>
+<nav>
+  <div>
+    <!-- <a {{action 'scrollUp'}} href="#" class="logo">OP</a> -->
+    <span class="logo">OP</span>
+    <div>
+      {{#link-to 'index'}}Home<span></span>{{/link-to}}
+      {{#link-to 'about'}}About Me<span></span>{{/link-to}}
+    </div>
+  </div>
+</nav>
