@@ -19,25 +19,9 @@ $font-stack: 'Avenir-Medium', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 // color palette
 $black: #000;
 $white: #fff;
-$sandwisp: #e0c87b;
-$copper: #df9b78;
-$cabaret: #c2506a;
-$lipstick: #9b2b4d;
-$byzantium: #6e296b;
-$gigas: #5e4489;
-$windsor: #4a2786;
-$navy: #060484;
-
-// mixins
-@mixin border-radius($radius) {
-  -webkit-border-radius: $radius;
-  -moz-border-radius: $radius;
-  -ms-border-radius: $radius;
-  border-radius: $radius;
-}
-
-@mixin box-shadow($v, $b, $s, $c) {
-  -webkit-box-shadow: $v $b $s $c;
-  -moz-box-shadow: $v $b $s $c;
-  box-shadow: $v $b $s $c;
-}
+$light-grey: #fafafa;
+$primary-color-1: #673ab7;
+$primary-color-2: #512da8;
+$primary-color-3: #d1c4e9;
+$accent-color-1: #ff80ab;
+$accent-color-2: #f50057;
