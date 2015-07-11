@@ -17,7 +17,11 @@
     vertical-align: middle;
     width: 49%;
 
-    div { height: 252px; margin: 61.5px 0; width: auto;}
+    div {
+      height: auto;
+      margin: 105px 0;
+      width: auto;
+    }
   }
 
   .oscar {
@@ -27,35 +31,71 @@
     background-image: url('images/oscar.jpg');
     background-size: 100%;
     border: 1px solid $white;
-    width: 250px;
+    height: 325px;
+    margin: 24px 0;
+    width: 325px;
   }
 
   h1,
   h2,
   h3 {
     display: inline-block;
-    margin-top: 63px 0;
+    margin: 0;
     vertical-align: middle;
   }
 
-  @media screen and (max-width: 650px) {
+  h1 { font-size: 3em; }
+
+  h2 { font-size: 2.5em; }
+
+  h3 { font-size: 2em; }
+
+  @media screen and (max-width: 750px) {
+    div div { margin: 136px 0; }
+
+    .oscar {
+      height: 275px;
+      margin: 49px 0;
+      width: 275px;
+    }
+
+    h1 { font-size: 2.5em; }
+
+    h2 { font-size: 2em; }
+
+    h3 { font-size: 1.5em; }
+  }
+
+  @media screen and (max-width: 595px) {
     div {
       height: auto;
-      margin: auto;
       width: 50%;
 
-      div { margin: auto; }
+      div {
+        height: auto;
+        margin: 0;
+      }
     }
 
     .oscar {
-      height: 200px;
-      margin: 27px 0;
-      width: 200px;
+      height: 235px;
+      margin: 10px 0;
+      width: 235px;
     }
 
-    h1,
-    h2,
-    h3 { margin: 0; }
+    h1 { font-size: 2em; }
+
+    h2 { font-size: 1.5em; }
+
+    h3 { font-size: 1.17em; }
+  }
+
+  @media screen and (max-width: 420px) {
+    div {
+      width: auto;
+
+      div { width: auto; }
+    }
   }
 }
 
