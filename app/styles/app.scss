@@ -1,7 +1,7 @@
 @import 'var';
 @import 'mix';
 @import 'header';
-@import 'content-block';
+@import 'paper-card';
 @import 'index';
 
 html * { font-family: $font-stack !important; }
@@ -80,5 +80,6 @@ body {
 }
 
 .main {
+  padding: 16px;
   width: 100%;
 }
