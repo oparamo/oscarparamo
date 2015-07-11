@@ -1,4 +1,5 @@
 .header {
+  @extend .white-text;
   @include box-shadow(0, 5px, 10px, rgba(0, 0, 0, .15));
 
   background-color: $accent-color-1;
@@ -7,7 +8,6 @@
 
 .triangilify {
   background-image: url('images/trianglify.svg');
-  color: $white;
   height: 375px;
   text-align: center;
   text-shadow: 0 5px 10px rgba(0, 0, 0, .15);
