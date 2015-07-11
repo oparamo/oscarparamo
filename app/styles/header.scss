@@ -1,4 +1,6 @@
 .header {
+  @include box-shadow(0, 5px, 10px, rgba(0, 0, 0, .15));
+
   background-color: $accent-color-1;
   width: 100%;
 }
@@ -8,7 +10,7 @@
   color: $white;
   height: 375px;
   text-align: center;
-  text-shadow: 0 1px 5px $black;
+  text-shadow: 0 5px 10px rgba(0, 0, 0, .15);
   width: 100%;
 
   div {
@@ -25,7 +27,7 @@
   }
 
   .oscar {
-    @include box-shadow(0, 1px, 5px, $black);
+    @include box-shadow(0, 5px, 10px, rgba(0, 0, 0, .15));
     @include border-radius(50%);
 
     background-image: url('images/oscar.jpg');
