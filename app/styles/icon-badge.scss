@@ -1,0 +1,65 @@
+.icon-set {
+  text-align: center;
+}
+
+.icon-badge {
+  @extend .black-text;
+
+  display: inline-block;
+  margin: 3px 5px;
+  padding: 0;
+  width: auto;
+
+  a {
+    display: block;
+    text-align: center;
+  }
+
+  .badge {
+    @include border-radius(50%);
+
+    height: 128px;
+    margin: 5px 0;
+    width: 128px;
+
+    i { vertical-align: middle;}
+
+    &:hover { background-color: rgba(232, 232, 232, 1); }
+  }
+}
+
+.email {
+  color: $accent-color-1;
+
+  &:visited { color: $accent-color-1; }
+}
+
+.github {
+  color: $black
+
+  &:visited { color: $black }
+}
+
+.instagram {
+  color: $accent-color-1;
+
+  &:visited { color: $accent-color-1; }
+}
+
+.steam {
+  color: $accent-color-1;
+
+  &:visited { color: $accent-color-1; }
+}
+
+.tumblr {
+  color: $accent-color-1;
+
+  &:visited { color: $accent-color-1; }
+}
+
+.linkedin {
+  color: $accent-color-1;
+
+  &:visited { color: $accent-color-1; }
+}
