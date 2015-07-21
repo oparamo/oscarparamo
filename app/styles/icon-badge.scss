@@ -34,44 +34,16 @@
   }
 }
 
-.op-envelope-o {
-  color: $accent-color-1;
+.op-envelope,
+.op-heart { color: $accent-color-1 !important; }
 
-  &:visited { color: $accent-color-1; }
-}
+.op-github,
+.op-steam { color: $black !important; }
 
-.op-github {
-  color: $black;
+.op-instagram { color: rgba(81, 57, 52, 1); }
 
-  &:visited { color: $black; }
-}
+.op-tumblr { color: rgba(53, 70, 92, 1); }
 
-.op-instagram {
-  color: rgba(81, 57, 52, 1);
+.op-twitter { color: rgba(85, 172, 238, 1); }
 
-  &:visited { color: rgba(81, 57, 52, 1); }
-}
-
-.op-steam {
-  color: $black;
-
-  &:visited { color: $black; }
-}
-
-.op-tumblr {
-  color: rgba(53, 70, 92, 1);
-
-  &:visited { color: rgba(53, 70, 92, 1); }
-}
-
-.op-twitter {
-  color: rgba(85, 172, 238, 1);
-
-  &:visited { color: rgba(85, 172, 238, 1); }
-}
-
-.op-linkedin {
-  color: rgba(19, 120, 179, 1);
-
-  &:visited { color: rgba(19, 120, 179, 1); }
-}
+.op-linkedin { color: rgba(19, 120, 179, 1); }
