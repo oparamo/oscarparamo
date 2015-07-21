@@ -16,50 +16,62 @@
   }
 
   .badge {
-    @include border-radius(50%);
-
+    font-size: 5em;
     height: 128px;
+    line-height: 128px;
     margin: 5px 0;
     width: 128px;
 
-    i { vertical-align: middle;}
+    &:hover {
+      @include border-radius(50%);
 
-    &:hover { background-color: rgba(232, 232, 232, 1); }
+      background-color: rgba(232, 232, 232, 1);
+    }
+  }
+
+  @media screen and (max-width: 1050px) {
+    margin: 3px 50px;
   }
 }
 
-.email {
+.op-envelope-o {
   color: $accent-color-1;
 
   &:visited { color: $accent-color-1; }
 }
 
-.github {
-  color: $black
+.op-github {
+  color: $black;
 
-  &:visited { color: $black }
+  &:visited { color: $black; }
 }
 
-.instagram {
-  color: $accent-color-1;
+.op-instagram {
+  color: rgba(81, 57, 52, 1);
 
-  &:visited { color: $accent-color-1; }
+  &:visited { color: rgba(81, 57, 52, 1); }
 }
 
-.steam {
-  color: $accent-color-1;
+.op-steam {
+  color: $black;
 
-  &:visited { color: $accent-color-1; }
+  &:visited { color: $black; }
 }
 
-.tumblr {
-  color: $accent-color-1;
+.op-tumblr {
+  color: rgba(53, 70, 92, 1);
 
-  &:visited { color: $accent-color-1; }
+  &:visited { color: rgba(53, 70, 92, 1); }
 }
 
-.linkedin {
-  color: $accent-color-1;
+.op-twitter {
+  color: rgba(85, 172, 238, 1);
 
-  &:visited { color: $accent-color-1; }
+  &:visited { color: rgba(85, 172, 238, 1); }
+}
+
+.op-linkedin {
+  color: rgba(19, 120, 179, 1);
+
+  &:visited { color: rgba(19, 120, 179, 1); }
 }
