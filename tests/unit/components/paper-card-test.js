@@ -1,6 +1,6 @@
 import { moduleForComponent, test } from 'ember-qunit';
 
-moduleForComponent('content-block', 'Unit | Component | content block', {
+moduleForComponent('paper-card', 'Unit | Component | paper card', {
   // Specify the other units that are required for this test
   // needs: ['component:foo', 'helper:bar'],
   unit: true

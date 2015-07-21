@@ -1,0 +1,16 @@
+.paper-card {
+  @extend .black-text;
+
+  @include border-radius(2px);
+  @include box-shadow(0, 5px, 10px, rgba(0, 0, 0, .15));
+
+  background-color: $white;
+  padding: 16px;
+
+  h2 {
+    font-weight: normal;
+    margin: 0;
+  }
+
+  p { font-size: .875em; }
+}

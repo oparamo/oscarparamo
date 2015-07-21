@@ -1,16 +1,17 @@
 @import 'var';
 @import 'mix';
 @import 'header';
-@import 'content-block';
+@import 'paper-card';
+@import 'icon-badge';
 @import 'index';
 
 html * { font-family: $font-stack !important; }
 
 html,
 body {
+  background-color: $light-grey;
   margin: 0;
   padding: 0;
-  background-color: $light-grey;
 }
 
 .black-text {
