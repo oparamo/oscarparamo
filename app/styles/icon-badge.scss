@@ -1,0 +1,77 @@
+.icon-set {
+  text-align: center;
+}
+
+.icon-badge {
+  @extend .black-text;
+
+  display: inline-block;
+  margin: 3px 5px;
+  padding: 0;
+  width: auto;
+
+  a {
+    display: block;
+    text-align: center;
+  }
+
+  .badge {
+    font-size: 5em;
+    height: 128px;
+    line-height: 128px;
+    margin: 5px 0;
+    width: 128px;
+
+    &:hover {
+      @include border-radius(50%);
+
+      background-color: rgba(232, 232, 232, 1);
+    }
+  }
+
+  @media screen and (max-width: 1050px) {
+    margin: 3px 50px;
+  }
+}
+
+.op-envelope-o {
+  color: $accent-color-1;
+
+  &:visited { color: $accent-color-1; }
+}
+
+.op-github {
+  color: $black;
+
+  &:visited { color: $black; }
+}
+
+.op-instagram {
+  color: rgba(81, 57, 52, 1);
+
+  &:visited { color: rgba(81, 57, 52, 1); }
+}
+
+.op-steam {
+  color: $black;
+
+  &:visited { color: $black; }
+}
+
+.op-tumblr {
+  color: rgba(53, 70, 92, 1);
+
+  &:visited { color: rgba(53, 70, 92, 1); }
+}
+
+.op-twitter {
+  color: rgba(85, 172, 238, 1);
+
+  &:visited { color: rgba(85, 172, 238, 1); }
+}
+
+.op-linkedin {
+  color: rgba(19, 120, 179, 1);
+
+  &:visited { color: rgba(19, 120, 179, 1); }
+}
