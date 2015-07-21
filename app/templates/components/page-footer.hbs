@@ -1,14 +1,15 @@
 <div>
-  <span class="primary-text">Made from scratch, with love <i class="op op-heart"></i></span>
-  <span class="primary-text">Source <a href="https://github.com/ch0sen1/oscarparamo">here.</a></span>
+  <span class="primary-text">Made from scratch, with love
+  {{#icon-badge iconSet='op' iconClass='op-heart icon-text' url='https://github.com/ch0sen1/oscarparamo' class='icon-badge'}}{{/icon-badge}}
+  </span>
 </div>
 <div>
   <ul>
     <li class="primary-text">Pages</li>
-    <li class="secondary-text">{{#link-to 'index'}}Home{{/link-to}}</li>
-    <li class="secondary-text">{{#link-to 'about'}}About Me{{/link-to}}</li>
+    <li>{{#link-to 'index' class='secondary-text'}}Home{{/link-to}}</li>
+    <li>{{#link-to 'about' class='secondary-text'}}About Me{{/link-to}}</li>
   </ul>
 </div>
-<div>
+<div class="copy">
   <span class="primary-text">&copy;2015 Oscar Páramo</span>
 </div>

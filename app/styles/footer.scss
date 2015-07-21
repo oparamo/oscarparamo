@@ -3,6 +3,40 @@
   @include box-shadow(0, 5px, 10px, rgba(0, 0, 0, .15));
 
   background-color: $dark-grey;
-  height: 150px;
+  font-size: .875em;
+  height: auto;
+  padding: 16px 0;
   width: 100%;
+
+  > * { margin: 0 40px;}
+
+  a {
+    color: $white;
+    text-decoration: none;
+
+    &:hover { color: $white; }
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .icon-badge {
+    margin: 0;
+
+    .badge {
+      font-size: 1em;
+      height: 20px;
+      line-height: 20px;
+      margin: 0;
+      width: 20px;
+    }
+
+    @media screen and (max-width: 1050px) {
+      margin: 0;
+    }
+  }
+
+  .copy { text-align: right; }
 }
