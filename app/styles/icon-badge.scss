@@ -34,8 +34,7 @@
   }
 }
 
-.op-envelope,
-.op-heart { color: $accent-color-1 !important; }
+.op-envelope { color: rgba(182, 54, 42, 1); }
 
 .op-github,
 .op-steam { color: $black !important; }
@@ -47,3 +46,5 @@
 .op-twitter { color: rgba(85, 172, 238, 1); }
 
 .op-linkedin { color: rgba(19, 120, 179, 1); }
+
+.op-heart { color: $accent-color-1 !important; }
