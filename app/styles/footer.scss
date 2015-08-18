@@ -22,10 +22,12 @@
     padding: 0;
   }
 
+  .ember-view { display: inline-block; }
+
   .icon-badge {
     margin: 0;
 
-    .badge {
+    a {
       font-size: 1em;
       height: 20px;
       line-height: 20px;
