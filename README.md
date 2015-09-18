@@ -1,6 +1,6 @@
 # oscarparamo
 
-[oscarparamo](http://www.oscarparamo.com) is my personal website and development playground. This project will be an Ember.js web application that will host personal and professional information about me. Eventually, any other side projects I work on will be linked to or hosted on my website. The live version of this project will be hosted by my Raspberry Pi [here](http://www.oscarparamo.com).
+[oscarparamo](http://www.oscarparamo.com) is my personal website and development playground. This project will be an Ember.js web application that will host personal and professional information about me. Eventually, any other side projects I work on will be linked to or hosted on my website. The live version of this project will be hosted [here](http://www.oscarparamo.com).
 
 ## Prerequisites
 
@@ -50,7 +50,6 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 - Finish my personal website
 - Create an environment where I can try new things related to programming
-- Host my website on my raspberry pi
 - Set up 'push to deploy' with Git
 - Get more experince using Git
 - Learn more about Node.js and Ember.js
@@ -60,27 +59,14 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ## TODO
 
-- [x] Install Raspbian on rpi
-- [x] Set up SSH on rpi
 - [x] Initialize git repo locally and on GitHub
 - [x] Add basic project structure
-- [x] Set up git repo and git remote on rpi
-- [x] Automatially start/stop ember server when rpi boots/shutdown
-- [x] Configure git hook on rpi to enable "push to deploy"
-- [x] Point domain to the rpi
-    - [x] Configure dyndns with my domain
-    - [x] Test ssh from internet
-    - [x] Test push to deploy
-- [ ] Finish personal website
-    - [ ] Add about website (home)
-    - [ ] Add about me
-    - [ ] Add education
-    - [ ] Add employment
-    - [ ] Add experience/skills
-    - [ ] Add hit and miss (+ -)
-    - [ ] Add hobbies
-    - [ ] Add contact me
-- [ ] Publish a tutorial for rpi setup
-- [ ] Upgrade to Raspberry Pi 2
+- [x] Finish personal website
+    - [x] Add about website (home)
+    - [x] Add about me
+    - [x] Add education
+    - [x] Add employment
+    - [x] Add experience/skills
+    - [x] Add hobbies
 
 © 2015 Oscar Paramo

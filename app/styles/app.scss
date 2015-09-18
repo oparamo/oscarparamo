@@ -13,15 +13,27 @@ html * { font-family: $font-stack !important; }
 html,
 body {
   background-color: $light-grey;
+  height: 100%;
   margin: 0;
   min-width: 275px;
   padding: 0;
 }
 
+body > .ember-view { height: 100%; }
+
+.wrapper {
+  margin: 0 auto -156px;
+  min-height: 100%;
+}
+
 .main {
-  margin: 30px 0;
+  margin: 32px 0;
   width: 100%;
 }
+
+.push { height: 156px; }
+
+.footer { height: 124px; }
 
 .icon-set {
   text-align: center;
