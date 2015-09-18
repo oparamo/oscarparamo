@@ -17,8 +17,8 @@
 $font-stack: 'Avenir-Medium', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 
 // icon families
-.op { font-family: 'Fonticons' !important;}
-.devicon { font-family: devicon !important;}
+.op { font-family: 'Fonticons' !important; }
+.devicon { font-family: devicon !important; }
 
 // color palette
 $black: #000;
@@ -30,3 +30,70 @@ $primary-color-2: #512da8;
 $primary-color-3: #d1c4e9;
 $accent-color-1: #ff80ab;
 $accent-color-2: #f50057;
+
+// global text styling
+.black-text {
+  // fallback color in case rgba isn't supported
+  color: $black;
+
+  .primary-text { color: rgba(0, 0, 0, .87); }
+
+  .secondary-text,
+  .icon-text { color: rgba(0, 0, 0, .54); }
+
+  .hint-text,
+  .diabled-text { color: rgba(0, 0, 0, .26); }
+
+  .divider-text { color: rgba(0, 0, 0, .12); }
+}
+
+.white-text {
+  // fallback color in case rgba isn't supported
+  color: $white;
+
+  .primary-text { color: rgba(255, 255, 255, 1); }
+
+  .secondary-text,
+  .icon-text { color: rgba(255, 255, 255, .7); }
+
+  .hint-text,
+  .diabled-text { color: rgba(255, 255, 255, .3); }
+
+  .divider-text { color: rgba(255, 255, 255, .12); }
+}
+
+.primary-colors-1 {
+  @extend .white-text;
+
+  background-color: $primary-color-1;
+
+  .accent { color: $accent-color-1; }
+}
+
+.primary-colors-2 {
+  @extend .white-text;
+
+  background-color: $primary-color-2;
+
+  .accent { color: $accent-color-2; }
+}
+
+.primary-colors-3 {
+  @extend .black-text;
+
+  background-color: $primary-color-3;
+
+  .accent { color: $accent-color-1; }
+}
+
+.accent-colors-1 {
+  @extend .white-text;
+
+  background-color: $accent-color-1;
+}
+
+.accent-colors-2 {
+  @extend .white-text;
+
+  background-color: $accent-color-2;
+}

@@ -1,4 +1,10 @@
-<div>
-  <a class="badge" href="{{url}}"><i class="{{iconSet}} {{iconClass}}"></i></a>
-  <a>{{yield}}</a>
+<div class="icon-badge">
+  {{#if iconSet}}
+  <a class={{if url 'hover'}} href={{url}}><i class="{{iconSet}} {{iconClass}}"></i></a>
+  {{else if iconClass}}
+  <a class={{if url 'hover'}} href={{url}}><i class="{{iconSet}} {{iconClass}}"></i></a>
+  {{/if}}
+  {{#if hasBlock}}
+  <div>{{yield}}</div>
+  {{/if}}
 </div>

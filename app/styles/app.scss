@@ -3,7 +3,9 @@
 @import 'header';
 @import 'paper-card';
 @import 'icon-badge';
+@import 'xp-bar';
 @import 'index';
+@import 'about-me';
 @import 'footer';
 
 html * { font-family: $font-stack !important; }
@@ -12,76 +14,31 @@ html,
 body {
   background-color: $light-grey;
   margin: 0;
+  min-width: 275px;
   padding: 0;
-}
-
-.black-text {
-  // fallback color in case rgba isn't supported
-  color: $black;
-
-  .primary-text { color: rgba(0, 0, 0, .87); }
-
-  .secondary-text,
-  .icon-text { color: rgba(0, 0, 0, .54); }
-
-  .hint-text,
-  .diabled-text { color: rgba(0, 0, 0, .26); }
-
-  .divider-text { color: rgba(0, 0, 0, .12); }
-}
-
-.white-text {
-  // fallback color in case rgba isn't supported
-  color: $white;
-
-  .primary-text { color: rgba(255, 255, 255, 1); }
-
-  .secondary-text,
-  .icon-text { color: rgba(255, 255, 255, .7); }
-
-  .hint-text,
-  .diabled-text { color: rgba(255, 255, 255, .3); }
-
-  .divider-text { color: rgba(255, 255, 255, .12); }
-}
-
-.primary-colors-1 {
-  @extend .white-text;
-
-  background-color: $primary-color-1;
-
-  .accent { color: $accent-color-1; }
-}
-
-.primary-colors-2 {
-  @extend .white-text;
-
-  background-color: $primary-color-2;
-
-  .accent { color: $accent-color-2; }
-}
-
-.primary-colors-3 {
-  @extend .black-text;
-
-  background-color: $primary-color-3;
-
-  .accent { color: $accent-color-1; }
-}
-
-.accent-colors-1 {
-  @extend .white-text;
-
-  background-color: $accent-color-1;
-}
-
-.accent-colors-2 {
-  @extend .white-text;
-
-  background-color: $accent-color-2;
 }
 
 .main {
   margin: 30px 0;
   width: 100%;
 }
+
+.icon-set {
+  text-align: center;
+
+  .ember-view { display: inline-block; }
+}
+
+.op-envelope,
+.op-github,
+.op-steam { color: $black; }
+
+.op-instagram { color: rgba(81, 57, 52, 1); }
+
+.op-tumblr { color: rgba(53, 70, 92, 1); }
+
+.op-twitter { color: rgba(85, 172, 238, 1); }
+
+.op-linkedin { color: rgba(19, 120, 179, 1); }
+
+.op-heart { color: $accent-color-1 !important; }
