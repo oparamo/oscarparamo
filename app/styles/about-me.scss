@@ -7,8 +7,20 @@
   width: 95%;
 }
 
+.about-me {
+  a {
+    color: $primary-color-1;
+    text-decoration: none;
+
+    &:visited { color: rgba(0, 0, 0, .26); }
+
+    &:hover { color: $accent-color-1; }
+  }
+}
+
 .entry {
-  margin: 14px auto;
+  margin: 32px auto;
+  text-align: center;
 
   h3,
   h4 { display: inline-block; }
@@ -23,7 +35,8 @@
   div {
     display: inline-block;
     margin-left: 48px;
-    width: 62%;
+    text-align: left;
+    width: 60%;
   }
 
   p {
@@ -45,35 +58,35 @@
 
     img {
       display: block;
-      margin: 12px auto;
+      margin: 16px auto;
       width: 75%;
     }
 
     div {
       display: block;
-      margin: 12px auto;
-      width: 97%;
+      margin: 16px auto;
+      width: 95%;
     }
   }
 
   @media screen and (min-width: 1750px) {
     img { width: 25%; }
-    div { margin-left: 128px; }
+    div { width: 70%; }
   }
 }
 
-.entry:nth-child(even) {
-  img { float: right; }
-
-  div {
-    margin-left: 0;
-    margin-right: 16px;
-  }
-
-  @media screen and (max-width: 750px) {
-    img { float: none; }
-  }
-}
+// .entry:nth-child(even) {
+//   img { float: right; }
+//
+//   div {
+//     margin-left: 0;
+//     margin-right: 16px;
+//   }
+//
+//   @media screen and (max-width: 750px) {
+//     img { float: none; }
+//   }
+// }
 
 .interest,
 .skill {

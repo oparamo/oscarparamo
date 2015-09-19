@@ -3,6 +3,7 @@
 module.exports = function (environment) {
   var ENV = {
     modulePrefix: 'oscarparamo',
+    podModulePrefix: 'oscarparamo/pods',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
