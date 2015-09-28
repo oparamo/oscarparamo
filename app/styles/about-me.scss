@@ -7,17 +7,6 @@
   width: 95%;
 }
 
-.about-me {
-  a {
-    color: $primary-color-1;
-    text-decoration: none;
-
-    &:visited { color: rgba(0, 0, 0, .26); }
-
-    &:hover { color: $accent-color-1; }
-  }
-}
-
 .entry {
   margin: 32px auto;
   text-align: center;
@@ -75,33 +64,18 @@
   }
 }
 
-// .entry:nth-child(even) {
-//   img { float: right; }
-//
-//   div {
-//     margin-left: 0;
-//     margin-right: 16px;
-//   }
-//
-//   @media screen and (max-width: 750px) {
-//     img { float: none; }
-//   }
-// }
-
 .interest,
 .skill {
   display: inline-block;
+  margin-bottom: 16px;
   text-align: center;
-  text-shadow: 0 5px 10px rgba(0, 0, 0, .15);
   vertical-align: top;
 
-  a { margin: auto; }
-
-  img { width: 100%; }
+  a { margin: 8px auto; }
 
   p {
     margin: 8px auto;
-    text-align: justify;
+    text-align: left;
   }
 
   .icon-badge {
@@ -135,14 +109,4 @@
     margin-left: 64px;
     width: 15%;
   }
-}
-
-.interest {
-  span { text-shadow: none; }
-  p { text-shadow: none; }
-}
-
-.odp {
-  height: 106px;
-  width: 125px;
 }

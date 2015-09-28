@@ -51,7 +51,7 @@ Make use of the many generators for code, try `ember help generate` for more det
 - Finish my personal website
 - Create an environment where I can try new things related to programming
 - Set up 'push to deploy' with Git
-- Get more experince using Git
+- Get more experience using Git
 - Learn more about Node.js and Ember.js
 - Use test driven development
 - Implement tracking and analytics (statsd and Google)

@@ -1,6 +1,6 @@
 {
   "name": "oscarparamo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "My personal website and programming playground.",
   "directories": {
     "doc": "doc",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/oscarparamo/oscarparamo.git"
+    "url": "git://github.com/ch0sen1/oscarparamo.git"
   },
   "engines": {
     "node": ">= 0.10.0"
