@@ -7,12 +7,18 @@
 
   a {
     display: block;
-    font-size: 5em;
-    height: 128px;
-    line-height: 128px;
-    margin: 5px 0;
+    font-size: 4.2em;
+    height: 96px;
+    line-height: 96px;
+    margin: 8px 0;
     text-align: center;
-    width: 128px;
+    width: 96px;
+
+    & > * {
+      max-height: 96px;
+      vertical-align: middle;
+      width: 100%;
+    }
   }
 
   .hover {
