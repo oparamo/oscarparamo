@@ -8,21 +8,23 @@
 @import 'about-me';
 @import 'footer';
 
-html * { font-family: $font-stack !important; }
-
 html,
 body {
   background-color: $light-grey;
   height: 100%;
   margin: 0;
-  min-width: 275px;
+  min-height: 288px;
+  min-width: 300px;
   padding: 0;
 }
 
-body > .ember-view { height: 100%; }
+body {
+  font-family: $font-stack;
+  & > .ember-view { height: 100%; }
+}
 
 .wrapper {
-  margin: 0 auto -156px;
+  margin: 0 auto -52px;
   min-height: 100%;
 }
 
@@ -31,9 +33,9 @@ body > .ember-view { height: 100%; }
   width: 100%;
 }
 
-.push { height: 156px; }
+.push { height: 52px; }
 
-.footer { height: 124px; }
+.footer { height: 20px; }
 
 .icon-set {
   text-align: center;
@@ -53,4 +55,12 @@ body > .ember-view { height: 100%; }
 
 .op-linkedin { color: rgba(19, 120, 179, 1); }
 
-.op-heart { color: $accent-color-1 !important; }
+.op-heart { color: $accent-color-1; }
+
+@media screen and (max-width: 432px) {
+  .wrapper { margin: 0 auto -72px; }
+
+  .push { height: 72px; }
+
+  .footer { height: 40px; }
+}

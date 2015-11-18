@@ -1,3 +1,5 @@
+// scss-lint:disable ColorVariable
+
 // fonts
 @font-face {
   font-family: 'Avenir-Medium';
@@ -17,8 +19,8 @@
 $font-stack: 'Avenir-Medium', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 
 // icon families
-.op { font-family: 'Fonticons' !important; }
-.devicon { font-family: devicon !important; }
+.op { font-family: 'Fonticons'; }
+.devicon { font-family: devicon; }
 
 // color palette
 $black: #000;
@@ -32,8 +34,7 @@ $accent-color-1: #ff80ab;
 $accent-color-2: #f50057;
 
 // global text styling
-.black-text {
-  // fallback color in case rgba isn't supported
+%black-text {
   color: $black;
 
   .primary-text { color: rgba(0, 0, 0, .87); }
@@ -47,8 +48,7 @@ $accent-color-2: #f50057;
   .divider-text { color: rgba(0, 0, 0, .12); }
 }
 
-.white-text {
-  // fallback color in case rgba isn't supported
+%white-text {
   color: $white;
 
   .primary-text { color: rgba(255, 255, 255, 1); }
@@ -62,38 +62,52 @@ $accent-color-2: #f50057;
   .divider-text { color: rgba(255, 255, 255, .12); }
 }
 
-.primary-colors-1 {
-  @extend .white-text;
+%primary-colors-1 {
+  @extend %white-text;
 
   background-color: $primary-color-1;
 
   .accent { color: $accent-color-1; }
 }
 
-.primary-colors-2 {
-  @extend .white-text;
+%primary-colors-2 {
+  @extend %white-text;
 
   background-color: $primary-color-2;
 
   .accent { color: $accent-color-2; }
 }
 
-.primary-colors-3 {
-  @extend .black-text;
+%primary-colors-3 {
+  @extend %black-text;
 
   background-color: $primary-color-3;
 
   .accent { color: $accent-color-1; }
 }
 
-.accent-colors-1 {
-  @extend .white-text;
+%accent-colors-1 {
+  @extend %white-text;
 
   background-color: $accent-color-1;
 }
 
-.accent-colors-2 {
-  @extend .white-text;
+%accent-colors-2 {
+  @extend %white-text;
 
   background-color: $accent-color-2;
 }
+
+.black-text { @extend %black-text; }
+
+.white-text { @extend %white-text; }
+
+.primary-colors-1 { @extend %primary-color-1; }
+
+.primary-colors-2 { @extend %primary-color-2; }
+
+.primary-colors-3 { @extend %primary-color-3; }
+
+.accent-colors-1 { @extend %accent-colors-1; }
+
+.accent-colors-2 { @extend %accent-colors-2; }
