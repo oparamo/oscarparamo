@@ -1,5 +1,5 @@
 .paper-card {
-  @extend .black-text;
+  @extend %black-text;
 
   @include border-radius(2px);
   @include box-shadow(0, 5px, 10px, rgba(0, 0, 0, .15));

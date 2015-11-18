@@ -1,5 +1,5 @@
 .header {
-  @extend .white-text;
+  @extend %white-text;
   @include box-shadow(0, 5px, 10px, rgba(0, 0, 0, .15));
 
   background-color: $accent-color-1;
@@ -109,7 +109,7 @@
 }
 
 nav {
-  @extend .primary-colors-1;
+  @extend %primary-colors-1;
 
   font-size: .875em;
   height: 50px;

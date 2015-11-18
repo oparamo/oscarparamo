@@ -1,5 +1,5 @@
 .xp-bar {
-  @extend .white-text;
+  @extend %white-text;
 
   @include border-radius(2px);
 

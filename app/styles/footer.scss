@@ -1,25 +1,16 @@
 .footer {
-  @extend .white-text;
+  @extend %white-text;
   @include box-shadow(0, 5px, 10px, rgba(0, 0, 0, .15));
 
   background-color: $dark-grey;
   font-size: .875em;
   padding: 16px 0;
+  position: relative;
   width: 100%;
 
-  > * { margin: 0 40px;}
+  span { display: inline-block; }
 
-  a {
-    color: $white;
-    text-decoration: none;
-
-    &:hover { color: $white; }
-  }
-
-  ul {
-    list-style: none;
-    padding: 0;
-  }
+  > * { margin: 0 40px; }
 
   .ember-view { display: inline-block; }
 
@@ -34,10 +25,28 @@
       width: 20px;
     }
 
+    i { color: $accent-color-1; }
+
     @media screen and (max-width: 1050px) {
       margin: 0;
     }
   }
 
-  .copy { text-align: right; }
+  .copy {
+    position: absolute;
+    right: 16px;
+  }
+
+  @media screen and (max-width: 432px) {
+    span {
+      display: block;
+      text-align: center;
+    }
+
+    .copy {
+      bottom: 0;
+      position: relative;
+      right: 0;
+    }
+  }
 }
