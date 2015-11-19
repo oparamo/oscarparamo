@@ -10,5 +10,5 @@
 <link rel="icon" type="image/png" href="http://www.oscarparamo.com/favicon-16x16.png" sizes="16x16" />
 <link rel="icon" type="image/png" href="http://www.oscarparamo.com/favicon-128.png" sizes="128x128" />
 <meta name="application-name" content="Oscar Páramo"/>
-<meta name="msapplication-TileColor" content="#512DA8" />
+<meta name="msapplication-TileColor" content="#FF8A80" />
 <meta name="msapplication-TileImage" content="http://www.oscarparamo.com/mstile-144x144.png" />
