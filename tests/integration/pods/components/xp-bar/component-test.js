@@ -5,8 +5,7 @@ moduleForComponent('xp-bar', 'Integration | Component | xp bar', {
   integration: true
 });
 
-test('it renders', function (assert) {
-  assert.expect(2);
+test('it renders', function(assert) {
 
   // Set any properties with this.set('myProperty', 'value');
   // Handle any actions with this.on('myAction', function(val) { ... });

@@ -1,19 +1,25 @@
 import { moduleForComponent, test } from 'ember-qunit';
+import hbs from 'htmlbars-inline-precompile';
 
-moduleForComponent('page-header', 'Unit | Component | page header', {
-  // Specify the other units that are required for this test
-  // needs: ['component:foo', 'helper:bar'],
-  unit: true
+moduleForComponent('page-header', 'Integration | Component | page header', {
+  integration: true
 });
 
-test('it renders', function (assert) {
-  assert.expect(2);
+test('it renders', function(assert) {
 
-  // Creates the component instance
-  var component = this.subject();
-  assert.equal(component._state, 'preRender');
+  // Set any properties with this.set('myProperty', 'value');
+  // Handle any actions with this.on('myAction', function(val) { ... });
 
-  // Renders the component to the page
-  this.render();
-  assert.equal(component._state, 'inDOM');
+  this.render(hbs`{{page-header}}`);
+
+  assert.equal(this.$().text().trim(), '');
+
+  // Template block usage:
+  this.render(hbs`
+    {{#page-header}}
+      template block text
+    {{/page-header}}
+  `);
+
+  assert.equal(this.$().text().trim(), 'template block text');
 });
