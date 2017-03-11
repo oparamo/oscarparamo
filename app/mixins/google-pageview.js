@@ -2,7 +2,6 @@ import Ember from 'ember';
 import ENV from '../config/environment';
 
 export default Ember.Mixin.create({
-
   pageviewToGA: function (page, title) {
     page = page ? page : this.get('url');
     title = title ? title : this.get('url');
