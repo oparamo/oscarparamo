@@ -1,6 +1,55 @@
 {{#paper-card title='About Me' class='about-me'}}
 <p>I'm a computer scientist who loves web development! Think of this page as a more interesting form of my resume, most of the information here is about my technical experience with some extra personal stuff about me. If you want a traditional resume (without my phone number) <a href="/resume.pdf">click here</a>. If you want more information that isn't already provided here, feel free to <a href="mailto:oscar.paramo@me.com">email me!</a></p>
 {{/paper-card}}
+{{#paper-card title='Employment' class='employment'}}
+<div class="entry">
+  <img src="assets/images/vinli.png">
+  <div>
+    <h3>Vinli - Software Engineer</h3>
+    <h4>2016 - 2017</h4>
+    <p>Vinli is a Dallas based startup that has created the first truly open platform for the connected car. I was a part of the 4-member Platform Team that built and maintained the 60+ microservices that made up the Vinli Platform. My main responsibilities were exposing and manipulating vehicle data through our microservices' RESTful APIs. It was empowering to be responsible for my code from start to finish, we were able to push our new features and changes at a moment's notice with little to no downtime! To ensure I was writing high quality code, I also wrote useful unit/integration tests and tested my changes in our production-like development stack. I had a blast working with one of the most talented teams in the world, and gained invaluable experience at Vinli!</p>
+    <ul>
+      <li>Tools - Git, Docker, CircleCI</li>
+      <li>Programming Languages - JavaScript</li>
+      <li>Web Technologies - Node.js, Hapi.js, PostgreSQL, RabbitMQ</li>
+    </ul>
+  </div>
+</div>
+<div class="entry">
+  <img src="assets/images/nectarom.png">
+  <div>
+    <h3>Nectar Online Media - Software Developer Intern</h3>
+    <h4>Jan - Aug of 2015</h4>
+    <p>NectarOM offers a suite of tools to help clients with marketing personalization. As an intern, I interacted directly with some of our clients and built on top of our web application tools. Some of my tasks were writing marketing emails in HTML and writing MongoDB query scripts with Node.js to generate customer reports for our clients. My favorite part of working at NectarOM was helping rebuild our architecture by moving our services to RESTful APIs using hapi.js and refactoring our PHP web apps to Ember CLI. I love how APIs allow you to decouple your server technologies from client side applications.</p>
+    <ul>
+      <li>Tools - Git, Docker, Ansible</li>
+      <li>Programming Languages - JavaScript, Python</li>
+      <li>Web Technologies - Node.js, Ember.js, Hapi.js, MongoDB</li>
+    </ul>
+  </div>
+</div>
+<div class="entry">
+  <img src="assets/images/cisco.svg">
+  <div>
+    <h3>Cisco Systems - Software Developer Intern</h3>
+    <h4>2013 - 2014</h4>
+    <p>While I was a full time student at UT Dallas, I was also a part time intern at Cisco. A lot of my basic skills as a programmer were strengthened while at Cisco because most of my responsibilities consisted of maintaining or refactoring other people's Java or Python code. I participated in Scrum meetings, learned about agile methodologies, got more comfortable using Unix systems, and learned more about computer networks. By the end of my internship, I had built some web applications powered by App Engine to provide GUIs for some Java programs other people had written.</p>
+    <ul>
+      <li>Tools - Google App Engine, VMware, VNC</li>
+      <li>Programming Languages - Java, Python</li>
+      <li>Web Technologies - HTML5, CSS3</li>
+    </ul>
+  </div>
+</div>
+<div class="entry">
+  <img src="assets/images/misd.png">
+  <div>
+    <h3>Mesquite Independent School District - EMT</h3>
+    <h4>2011 - 2013</h4>
+    <p>MesquiteISD offered two classes for high school students who were interested in being Emergency Medical Technicians. After completing the classes and clinical rotations, I passed the National Registry of EMTs certification exam! My former JROTC instructors knew I became certified and offered me some part time jobs as an EMT at various JROTC leadership camps. I provided basic first aid and any emergency medical treatments necessary.</p>
+  </div>
+</div>
+{{/paper-card}}
 {{#paper-card title='Education' class='education'}}
 <div class="entry">
   <img src="assets/images/utd.png">
@@ -26,42 +75,6 @@
       <li>Programming Languages - Python, JavaScript</li>
       <li>Web Technologies - HTML5, CSS3</li>
     </ul>
-  </div>
-</div>
-{{/paper-card}}
-{{#paper-card title='Employment' class='employment'}}
-<div class="entry">
-  <img src="assets/images/nectarom.png">
-  <div>
-    <h3>Nectar Online Media - Software Developer Intern</h3>
-    <h4>Jan - Aug of 2015</h4>
-    <p>NectarOM offers a suite of tools to help clients with marketing personalization. As an intern, I interacted directly with some of our clients and built on top of our web application tools. Some of my tasks were writing marketing emails in HTML and writing MongoDB query scripts with Node.js to generate customer reports for our clients. My favorite part of working at NectarOM was helping rebuild our architecture by moving our services to RESTful APIs using hapi.js and refactoring our PHP web apps to Ember CLI. I love how APIs allow you to decouple your server technologies from client side applications.</p>
-    <ul>
-      <li>Tools - Git, Docker, Ansible</li>
-      <li>Programming Languages - JavaScript, Python</li>
-      <li>Web Technologies - Node.js, Ember.js, hapi.js, MongoDB</li>
-    </ul>
-  </div>
-</div>
-<div class="entry">
-  <img src="assets/images/cisco.svg">
-  <div>
-    <h3>Cisco Systems - Software Developer Intern</h3>
-    <h4>2013 - 2014</h4>
-    <p>While I was a full time student at UT Dallas, I was also a part time intern at Cisco. A lot of my basic skills as a programmer were strengthened while at Cisco because most of my responsibilities consisted of maintaining or refactoring other people's Java or Python code. I participated in Scrum meetings, learned about agile methodologies, got more comfortable using Unix systems, and learned more about computer networks. By the end of my internship, I had built some web applications powered by App Engine to provide GUIs for some Java programs other people had written.</p>
-    <ul>
-      <li>Tools - Google App Engine, VMware, VNC</li>
-      <li>Programming Languages - Java, Python</li>
-      <li>Web Technologies - HTML5, CSS3</li>
-    </ul>
-  </div>
-</div>
-<div class="entry">
-  <img src="assets/images/misd.png">
-  <div>
-    <h3>Mesquite Independent School District - EMT</h3>
-    <h4>2011 - 2013</h4>
-    <p>MesquiteISD offered two classes for high school students who were interested in being Emergency Medical Technicians. After completing the classes and clinical rotations, I passed the National Registry of EMTs certification exam! My former JROTC instructors knew I became certified and offered me some part time jobs as an EMT at various JROTC leadership camps. I provided basic first aid and any emergency medical treatments necessary.</p>
   </div>
 </div>
 {{/paper-card}}
