@@ -1,18 +1,18 @@
 {
 	"version": 3,
 	"file": "oscarparamo.css",
-	"sourceRoot": "/home/oparamo/Projects/oscarparamo/app/styles",
+	"sourceRoot": "/Users/oparamo/projects/oscarparamo/app/styles",
 	"sources": [
-		"../../sass_compiler-input_base_path-6sRl5xGf.tmp/app/styles/app.scss",
-		"../../sass_compiler-input_base_path-6sRl5xGf.tmp/app/styles/var.scss",
-		"../../sass_compiler-input_base_path-6sRl5xGf.tmp/app/styles/mix.scss",
-		"../../sass_compiler-input_base_path-6sRl5xGf.tmp/app/styles/header.scss",
-		"../../sass_compiler-input_base_path-6sRl5xGf.tmp/app/styles/paper-card.scss",
-		"../../sass_compiler-input_base_path-6sRl5xGf.tmp/app/styles/icon-badge.scss",
-		"../../sass_compiler-input_base_path-6sRl5xGf.tmp/app/styles/xp-bar.scss",
-		"../../sass_compiler-input_base_path-6sRl5xGf.tmp/app/styles/index.scss",
-		"../../sass_compiler-input_base_path-6sRl5xGf.tmp/app/styles/about-me.scss",
-		"../../sass_compiler-input_base_path-6sRl5xGf.tmp/app/styles/footer.scss"
+		"../../sass_compiler-input_base_path-6zzYsRW0.tmp/app/styles/app.scss",
+		"../../sass_compiler-input_base_path-6zzYsRW0.tmp/app/styles/var.scss",
+		"../../sass_compiler-input_base_path-6zzYsRW0.tmp/app/styles/mix.scss",
+		"../../sass_compiler-input_base_path-6zzYsRW0.tmp/app/styles/header.scss",
+		"../../sass_compiler-input_base_path-6zzYsRW0.tmp/app/styles/paper-card.scss",
+		"../../sass_compiler-input_base_path-6zzYsRW0.tmp/app/styles/icon-badge.scss",
+		"../../sass_compiler-input_base_path-6zzYsRW0.tmp/app/styles/xp-bar.scss",
+		"../../sass_compiler-input_base_path-6zzYsRW0.tmp/app/styles/index.scss",
+		"../../sass_compiler-input_base_path-6zzYsRW0.tmp/app/styles/about-me.scss",
+		"../../sass_compiler-input_base_path-6zzYsRW0.tmp/app/styles/footer.scss"
 	],
 	"sourcesContent": [
 		"// scss-lint:disable ColorVariable\n\n@import 'var';\n@import 'mix';\n@import 'header';\n@import 'paper-card';\n@import 'icon-badge';\n@import 'xp-bar';\n@import 'index';\n@import 'about-me';\n@import 'footer';\n\nhtml,\nbody {\n  background-color: $light-grey;\n  height: 100%;\n  margin: 0;\n  min-height: 288px;\n  min-width: 300px;\n  padding: 0;\n}\n\nbody {\n  font-family: $font-stack;\n  & > .ember-view { height: 100%; }\n}\n\n.wrapper {\n  margin: 0 auto -52px;\n  min-height: 100%;\n}\n\n.main {\n  margin: 32px 0;\n  width: 100%;\n}\n\n.push { height: 52px; }\n\n.footer { height: 20px; }\n\n.icon-set {\n  text-align: center;\n\n  .ember-view { display: inline-block; }\n}\n\n.op-envelope,\n.op-github,\n.op-steam { color: $black; }\n\n.op-instagram { color: rgba(81, 57, 52, 1); }\n\n.op-tumblr { color: rgba(53, 70, 92, 1); }\n\n.op-twitter { color: rgba(85, 172, 238, 1); }\n\n.op-linkedin { color: rgba(19, 120, 179, 1); }\n\n.op-heart { color: $accent-color-1; }\n\n@media screen and (max-width: 432px) {\n  .wrapper { margin: 0 auto -72px; }\n\n  .push { height: 72px; }\n\n  .footer { height: 40px; }\n}\n",
